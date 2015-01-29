@@ -13,11 +13,11 @@ def go():
   while touch() == "fruit":
     move()
     steps += 1
-  if left_size() == "fruit":
+  if left_side() == "fruit":
     turn(-1)
     go()
     turn(-1)
-  if right_size() == "fruit":
+  if right_side() == "fruit":
     turn(1)
     go()
     turn(1)
