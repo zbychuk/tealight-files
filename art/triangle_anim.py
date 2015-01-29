@@ -3,7 +3,7 @@ from math import sin, cos, pi, exp
 from tealight.utils import sleep, now
 from random import random
 
-num_triangles = 40
+num_triangles = 4
 max_size = max(min(screen_width, screen_height)/2. - 10, 10)
 min_size = max_size / num_triangles
 max_l = 95
